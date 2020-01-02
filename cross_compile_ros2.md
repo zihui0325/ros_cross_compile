@@ -299,3 +299,8 @@ Log4cxx is default log system in ROS1 and ROS2, which is depend on apr and apr-u
 2. log4cxx
 3. python3.6
 4. 
+
+### Another Way
+1. Download ros2-arm64.tar.bz
+2. cross compile `Poco` `tinyxml2` `openssl 1.1.1`, install to ros2 directory
+3. run app in hisi3559 directly
